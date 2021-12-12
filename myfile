@@ -1,0 +1,5 @@
+let a= {
+name : "Ram",
+age : 26
+}
+console.log(a)
