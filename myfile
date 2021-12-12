@@ -1,5 +1,6 @@
 let a= {
 name : "Ram",
-age : 26
+age : 26,
+course : "BE"
 }
 console.log(a)
