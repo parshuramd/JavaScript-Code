@@ -1,39 +1,34 @@
 let day;
 switch (new Date().getDay()) {
-    case 0:
-        day = "sunday";
+  case 0:
+    day = "sunday";
 
-        break;
-    case 1:
-        day = "monday";
+    break;
+  case 1:
+    day = "monday";
 
-        break;
-    case 2:
-        day = "tuesday";
+    break;
+  case 2:
+    day = "tuesday";
 
-        break;
-    case 3:
-        day = "wednsday";
+    break;
+  case 3:
+    day = "wednsday";
 
-        break;
-    case 4:
-        day = "thrusday";
+    break;
+  case 4:
+    day = "thrusday";
 
-        break;
+    break;
 
-    case 5:
-        day = "friday";
+  case 5:
+    day = "friday";
 
-        break;
+    break;
 
-    case 6:
-        day = "saturday";
+  case 6:
+    day = "saturday";
 
-        break;
-
-
-
-
-
+    break;
 }
-console.log(day)
+console.log(day);

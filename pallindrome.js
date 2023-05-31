@@ -1,9 +1,5 @@
-const isPalindrome = (num) => {
-  let reverse = Number(num.toString().split("").reverse().join(""));
-  if (num === reverse) {
-    return true;
-  } else {
-    return false;
-  }
+const isPal = (num) => {
+  let reversedNum = Number(num.toString().split("").reverse().join(""));
+  return reversedNum;
 };
-console.log(isPalindrome(3113));
+console.log(isPal("122"));
