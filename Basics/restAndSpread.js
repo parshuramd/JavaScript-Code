@@ -4,7 +4,7 @@
 
 function add(...numbers) {
   let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
+  for (let i = 0; i < numbers.length; i += 1) {
     sum += numbers[i];
   }
   return sum;
@@ -18,9 +18,9 @@ console.log(a, b);
 console.log(a, b);
 
 const student = {
-  studentName: "ParshuRam",
+  studentName: 'ParshuRam',
   age: 26,
-  degree: "B.E",
+  degree: 'B.E',
 };
 const adult = { ...student };
 console.log(student, adult);

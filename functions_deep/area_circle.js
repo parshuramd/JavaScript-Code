@@ -1,4 +1,5 @@
 function circleArea(dia) {
-  return (area = (Math.PI / 4) * dia * dia);
+  const area = (Math.PI / 4) * dia * dia;
+  return area;
 }
 console.log(circleArea(2));

@@ -92,9 +92,11 @@
 // // john.calcBMI();
 // // mark.calcBMI();
 // if(john.BMI > mark.BMI){
-//     console.log(`${john.fullName}'s BMI is ${john.calcBMI()} higher than ${mark.fullName}'s BMI ${mark.calcBMI()}`)
+//     console.log(`${john.fullName}'s BMI is ${john.calcBMI()} higher than ${mark.fullName}'s
+// BMI ${mark.calcBMI()}`)
 // }else{
-//     console.log(`${john.fullName}'s BMI is ${john.calcBMI()} lower than ${mark.fullName}'s BMI ${mark.calcBMI()}`)
+//     console.log(`${john.fullName}'s BMI is ${john.calcBMI()} lower than ${mark.fullName}'s
+// BMI ${mark.calcBMI()}`)
 // }
 
 // Coding Challenge 4
@@ -126,4 +128,4 @@
 //   },
 // };
 // console.log("info", infoObject);
-console.log(this);
+// console.log(this);

@@ -1,9 +1,9 @@
 const promise = new Promise((resolve, reject) => {
-  let x = 4;
-  let y = 1;
+  const x = 4;
+  const y = 1;
   if (x > y) {
     resolve(() => {
-      for (let index = 0; index < 5; index++) {
+      for (let index = 0; index < 5; index += 1) {
         console.log(index);
       }
     });
@@ -17,7 +17,7 @@ promise
   })
   .catch((data) => {
     console.log(data);
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 5; index += 1) {
       console.log(index);
     }
   });

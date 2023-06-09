@@ -1,6 +1,6 @@
 function generateFibonacci(n) {
   const sequence = [0, 1]; // Initialize the sequence with the first two numbers
-  for (let i = 2; i < n; i++) {
+  for (let i = 2; i < n; i += 1) {
     sequence.push(sequence[i - 1] + sequence[i - 2]); // Push the next number to the sequence
   }
 

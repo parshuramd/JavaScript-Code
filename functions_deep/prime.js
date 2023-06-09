@@ -2,8 +2,8 @@ function isPrime(number) {
   if (number <= 1) {
     return false;
   }
-  let sqrt = Math.floor(Math.sqrt(number));
-  for (let i = 2; i <= sqrt; i++) {
+  const sqrt = Math.floor(Math.sqrt(number));
+  for (let i = 2; i <= sqrt; i += 1) {
     if (number % i === 0) {
       return false;
     }
@@ -14,13 +14,13 @@ function isPrime(number) {
 console.log(isPrime(29));
 
 function printLimit(limit) {
-  let arr = [];
-  for (let i = 2; i < limit; i++) {
+  const arr = [];
+  for (let i = 2; i < limit; i += 1) {
     if (isPrime(i)) {
       arr.push(i);
     }
   }
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i += 1) {
     console.log(arr[i]);
   }
 }
